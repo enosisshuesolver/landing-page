@@ -1,0 +1,510 @@
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    height:100px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+.find-us{
+    background-color: #f4f4f4;
+}
+.logo h1 {
+    margin: 0;
+    text-align: center;
+}
+
+nav {
+    flex-grow: 1;
+}
+
+.nav-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu li {
+    margin: 0 15px; /* Space between menu items */
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff; /* Dark text color */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+/* About Us Section */
+.about-us {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+}
+
+.about-us h2 {
+    font-size: 28px;
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+/* Flexbox container */
+.about-us .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+    gap: 20px;
+}
+
+/* Image Styling */
+.about-us img {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Description Styling */
+.about-us .description {
+    width: 70%;
+    text-align: left;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-us .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-us img {
+        width: 80%;
+    }
+
+    .about-us .description {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.nav-menu a:hover {
+    color: #ff6600; /* Change color on hover */
+}
+
+.cta-button {
+    float: right;
+}
+
+.btn {
+    background: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Hero Section Styles */
+
+.hero {
+    background: url('https://images.deliveryhero.io/image/fd-pk/LH/pyh6-listing.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+}
+
+.cta-buttons .btn {
+    margin: 10px;
+}
+
+/* Featured Items Section Styles */
+
+.featured-items {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.item-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    height: 300px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+.price {
+    font-weight: bold;
+    color: #ff6600;
+}
+
+/* Why Choose Us Section Styles */
+
+.why-choose-us {
+    background: #fff;
+    padding: 20px;
+}
+
+.selling-points {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Promotions Section Styles */
+
+.promotions {
+    padding: 20px;
+    text-align: center;
+}
+
+.promotion-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #ff6600;
+    color: #fff;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 200px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials {
+    text-align: center;
+}
+/* Header Container */
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Logo Styling */
+.logo h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Navigation Menu */
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu li {
+    display: inline;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-menu a:hover {
+    color: #ff6600;
+}
+
+/* CTA Button */
+.cta-button .btn {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+}
+
+.cta-button .btn:hover {
+    background-color: #e65c00;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container2 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+}
+
+.testimonial {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item img {
+    width: 200px; /* Set a fixed width */
+    height: 150px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+/* Find Us Section Styles */
+
+.find-us {
+    padding: 20px;
+    background: #fff;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* About Us Section Styles */
+
+.about-us {
+    padding: 20px;
+    text-align: center;
+}
+
+.about-us img {
+    width: 100%;
+    height: auto;
+}
+
+/* Newsletter Signup Section Styles */
+
+.newsletter-signup {
+    padding: 20px;
+    text-align: center;
+}
+
+.signup-form {
+    display: flex;
+    justify-content: center;
+}
+
+.email-input {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+/* Contact Form Section Styles */
+
+.contact-form-section {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Footer Styles */
+
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icon {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+    .item-grid, .selling-points, .promotion-cards, .info-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/* Container Styling */
+.container5 {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Section Title */
+.contact-form-section h2 {
+    font-size: 28px;
+    color: #ff6600;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Form Group */
+.form-group {
+    text-align: left;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Submit Button */
+.submit-button {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+    background-color: #e65c00;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container5 {
+        width: 90%;
+        padding: 20px;
+    }
+}
+/* Container Styling */
+
+/* Section Title */
+.testimonials h3 {
+    font-size: 26px;
+    color: #ff6600;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+/* Individual Testimonial */
+.testimonial {
+    background-color: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    font-style: italic;
+    font-size: 18px;
+    color: #333;
+    position: relative;
+}
+
+/* Quote Symbol Effect */
+.testimonial:before {
+    content: "“";
+    font-size: 40px;
+    color: #ff6600;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+}
+
+/* Cite Styling */
+.testimonial cite {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container3 {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .testimonial {
+        font-size: 16px;
+        padding: 15px;
+    }
+}
